@@ -14,10 +14,9 @@ install:
     - pwd
     - git clone https://github.com/imxood/hugo-theme-slim.git themes/slim
     - ls
-    - ls themes/slim
 
 script:
-    - hugo --theme=slim -d blog
+    - hugo --theme=slim --buildDrafts -d blog
     - echo 'Hugo build done!'
 
 after_success:
