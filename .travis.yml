@@ -19,6 +19,7 @@ script:
     - echo 'Hugo build done!'
 
 after_success:
+    - pwd
     - git config --global user.email "imxood@gmail.com"
     - git config --global user.name "mx"
     - git clone https://$GITHUB_TOKEN@github.com/imxood/imxood.github.io.git container
