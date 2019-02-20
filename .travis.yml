@@ -11,9 +11,10 @@ install:
     - sudo dpkg -i hugo*.deb
     - hugo version
     - rm -rf blog
-    - ls
     - pwd
     - git clone https://github.com/imxood/hugo-theme-slim.git themes/slim
+    - ls
+    - ls themes/slim
 
 script:
     - hugo --theme=slim -d blog
