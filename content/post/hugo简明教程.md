@@ -1,12 +1,9 @@
 +++
 date = "2019-02-20T19:25:43+08:00"
 draft = true
-title = "# hugo简明教程"
+title = "hugo简明教程"
 
 +++
-
-
-# hugo简明教程
 
 
 1. 安装hugo
@@ -30,12 +27,12 @@ title = "# hugo简明教程"
 
 4. 使用主题:
 ```
-    cd themes && git clone https://github.com/imxood/hugo-theme-slim.git slim && cd ..
+    git clone https://github.com/imxood/hugo-theme-slim.git themes/slim
 ```
 
 5. 启动本地调试:
 ```
-    hugo server --theme=slim --buildDrafts --watch
+    hugo server --theme=slim --buildDrafts
     ps: --theme=slim 指定使用"slim"主题, "--buildDrafts" 编译草稿, "--watch" 实时刷新页面
 ```
 
