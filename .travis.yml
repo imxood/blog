@@ -12,11 +12,11 @@ install:
     - hugo version
     - rm -rf blog
     - pwd
-    - git clone https://github.com/imxood/hugo-theme-slim.git themes/slim
+    - git submodule add https://github.com/chinanf-boy/gohugo-theme-yinwang.git themes/yinwang
     - ls
 
 script:
-    - hugo --theme=slim --buildDrafts -d blog
+    - hugo --theme=yinwang --buildDrafts -d blog
     - echo 'Hugo build done!'
 
 after_success:
