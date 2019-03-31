@@ -416,3 +416,7 @@ dia-normal "$@"
 
 ## 串口工具
     cutecom picocom
+
+## chrome 插件: 百度下载工具
+    baidu-dl
+    执行: aria2c --enable-rpc
