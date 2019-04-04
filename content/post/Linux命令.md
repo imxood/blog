@@ -732,3 +732,11 @@ sudo ls -l /proc/21943/fd
 ## update-locale example
     update-locale LANG=en_CA.UTF-8 LANGUAGE
     # sets LANG to en_CA.UTF-8 and removes definitions for LANGUAGE.
+
+## .ssh/config 给git配置proxy 
+~~~
+Host github.com
+   HostName github.com
+   User git
+   ProxyCommand nc -v -x 127.0.0.1:1080 %h %p
+~~~
