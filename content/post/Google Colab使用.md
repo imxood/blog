@@ -9,9 +9,10 @@ title = "Google 应用"
 ## colab
 
 打开[google硬盘](https://drive.google.com/drive/my-drive)，
-这里就把google硬盘当做本地磁盘(ps: 类似windows系统中的文件操作)，创建文件夹，多级文件夹，可以在文件夹中创建不同的应用。
-1. 创建顶级文件夹"Colab", 点击文件夹"Colab", 进入该文件夹, 
+这里就把google硬盘当做本地磁盘 (记住: **类似windows系统中的文件操作**)，创建文件夹，多级文件夹，可以在文件夹中创建不同的应用。
+1. 创建顶级文件夹"Colab", 点击文件夹"Colab", 进入该文件夹
+2. 右击右侧空白, 弹出右键菜单，点击"更多"，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Njg5NzE3NywxMzg1MDMzODQ1LDczMD
+eyJoaXN0b3J5IjpbMjA0NTYwMjU1NSwxMzg1MDMzODQ1LDczMD
 k5ODExNl19
 -->
