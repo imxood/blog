@@ -10,8 +10,8 @@ title = "Google 应用"
 
 打开[google硬盘](https://drive.google.com/drive/my-drive)，
 这里就把google硬盘当做本地磁盘，创建文件夹，多级文件夹，可以在文件夹中创建不同的应用。
-1. 
+1. 创建文件夹, /Colab/test1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODAxMzQyODksMTM4NTAzMzg0NSw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTQ5NzI2MTU2NCwxMzg1MDMzODQ1LDczMD
+k5ODExNl19
 -->
