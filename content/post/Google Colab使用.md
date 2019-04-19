@@ -4,7 +4,9 @@ draft = true
 title = "Google Colab使用"
 +++
 
-1. 注册你的google gmail, 即拥有了google
+	了使用google服务， 你需要先注册google gmail。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDE3MTUwNDgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTU0OTAxMzQyNiw3MzA5OTgxMTZdfQ==
 -->
