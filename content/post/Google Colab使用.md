@@ -8,7 +8,7 @@ title = "Google 应用"
 
 ## colab
 
-[https://drive.google.com/drive/my-drive](https://drive.google.com/drive/my-drive)
+打开[drive my-drive](https://drive.google.com/drive/my-drive)，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDEzNDE4ODQsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTgzNzE5OTUzMiw3MzA5OTgxMTZdfQ==
 -->
