@@ -12,8 +12,9 @@ title = "Google 应用"
 这里就把google硬盘当做本地磁盘 (记住: **类似windows系统中的文件操作**)，创建文件夹，多级文件夹，可以在文件夹中创建不同的应用。
 1. 创建顶级文件夹"Colab", 点击文件夹"Colab", 进入该文件夹
 2. 右击右侧空白, 弹出右键菜单，点击"更多"，如果没有"Colaboratory"的话，就点击"关联更多应用"，搜索应用: "colab"，点击"关联"，点击弹出的框，弹出框中，有一项要记得勾选，就是说默认打开应用，点击"OK"，再次右键菜单，点击"更多"，点击"Colaboratory", 就会创建一个Colaboratory应用，即一个ipynb文件
+3. 此时，如果你需要数据集，你就可以把数据
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDI2MjY3MCwtMTE4NDE2Mjk0LDEzOD
-UwMzM4NDUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE5ODg2ODQyNywtNjM0MjYyNjcwLC0xMT
+g0MTYyOTQsMTM4NTAzMzg0NSw3MzA5OTgxMTZdfQ==
 -->
