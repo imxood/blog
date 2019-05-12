@@ -740,3 +740,12 @@ Host github.com
    User git
    ProxyCommand nc -v -x 127.0.0.1:1080 %h %p
 ~~~
+
+
+## install boot-repair
+```sh
+# 添加软件源并更新
+sudo add-apt-repository ppa:yannubuntu/boot-repair &&　apt-get update
+＃　安装boot-repair并启动软件
+sudo apt install -y boot-repair && boot-repair
+```
