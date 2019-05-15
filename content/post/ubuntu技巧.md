@@ -13,5 +13,7 @@ title = "linux命令"
 
 gsettings range org.gnome.shell.extensions.dash-to-dock click-action
 
+gsettings list-keys org.gnome.shell.extensions.dash-to-dock | awk '{print $1}' | xargs -i sh -c "echo '{}:' >> test.txt && gsettings describe org.gnome.shell.extensions.dash-to-dock {} >> test.txt && echo >> test.txt"
+
 ### 点击图标最小化
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
