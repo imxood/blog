@@ -11,6 +11,27 @@ title = "linux命令"
 
 #### gsettings list-schemas/list-keys/set/get/range
 
+```sh
+# 显示所有的scheme用法描述
+
+#!/bin/bash
+
+schemas=$(gsettings list-schemas)
+
+echo "gsettings doc" > test.txt
+
+for schema in $schemas
+do
+    echo "schema: $schema" >> test.txt
+    keys=$(gsettings list-keys $schema)
+    for key in $keys
+    do
+        echo -e "\tkey: $key" >> test.txt
+        describe=$(gsettings describe $schema $key)
+        echo -e "\tdescribe: $describe\n" >> test.txt
+    done
+done
+```
 #### 查看所有的schema
 gsettings list-schemas
 
