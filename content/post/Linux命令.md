@@ -759,3 +759,9 @@ ImportError: cannot import name 'main'
 
 curl https://bootstrap.pypa.io/get-pip.py | sudo -H python3
 ```
+
+## pip setuptools 版本太低
+```
+pkg_resources.VersionConflict: (setuptools 20.7.0 (/usr/lib/python3/dist-packages), Requirement.parse('setuptools>=40.0'))
+pip3 install --user --upgrade setuptools==41.0.1
+```
