@@ -420,3 +420,7 @@ dia-normal "$@"
 ## chrome 插件: 百度下载工具
     baidu-dl
     执行: aria2c --enable-rpc
+
+## python 升级
+    sudo add-apt-repository ppa:deadsnakes/ppa
+    sudo apt update && sudo apt install python3.7
