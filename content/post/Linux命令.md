@@ -765,3 +765,5 @@ curl https://bootstrap.pypa.io/get-pip.py | sudo -H python3
 pkg_resources.VersionConflict: (setuptools 20.7.0 (/usr/lib/python3/dist-packages), Requirement.parse('setuptools>=40.0'))
 pip3 install --user --upgrade setuptools==41.0.1
 ```
+## 更改硬件时间
+    timedatectl set-local-rtc 1 --adjust-system-clock
