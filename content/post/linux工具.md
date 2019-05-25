@@ -429,3 +429,6 @@ dia-normal "$@"
     sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2
     
     sudo update-alternatives --config python3
+
+## install lastest pip
+    curl https://bootstrap.pypa.io/get-pip.py | sudo -H python3
