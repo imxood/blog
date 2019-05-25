@@ -425,6 +425,9 @@ dia-normal "$@"
     sudo add-apt-repository ppa:deadsnakes/ppa
     sudo apt update && sudo apt install -y python3.7
     
+    cd /usr/lib/python3/dist-packages
+    sudo ln -s apt_pkg.cpython-{35m,37m}-x86_64-linux-gnu.so
+    
     sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 1
     sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2
     
