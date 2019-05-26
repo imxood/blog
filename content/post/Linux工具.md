@@ -435,3 +435,11 @@ dia-normal "$@"
 
 ## install lastest pip
     curl https://bootstrap.pypa.io/get-pip.py | sudo -H python3
+
+## ubuntu nvidia graphics drivers
+    sudo apt purge nvidia*
+    sudo add-apt-repository -y ppa:graphics-drivers && sudo apt update
+    sudo apt install nvidia-410
+    
+## ubuntu bison flex
+    sudo apt install bison flex
