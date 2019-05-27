@@ -443,3 +443,11 @@ dia-normal "$@"
     
 ## ubuntu bison flex
     sudo apt install bison flex
+
+## 源码安装qemu
+    sudo apt purge "qemu*" && sudo apt autoremove -y && sudo apt install checkinstall -y && sudo apt build-dep qemu -y
+    下载(qemu-4.0.0)[https://download.qemu.org/qemu-4.0.0.tar.xz]
+    tar -xvf qemu-4.0.0.tar.xz && cd qemu-4.0.0
+    ./configure && make -j11
+    sudo checkinstall make install
+    # sudo apt install ./*.deb
