@@ -445,9 +445,10 @@ dia-normal "$@"
     sudo apt install bison flex
 
 ## 源码安装qemu
+    # 参考https://wiki.qemu.org/Hosts/Linux
     sudo apt purge "qemu*" && sudo apt autoremove -y && sudo apt install checkinstall -y && sudo apt build-dep qemu -y
     下载[qemu-4.0.0](https://download.qemu.org/qemu-4.0.0.tar.xz)
     tar -xvf qemu-4.0.0.tar.xz && cd qemu-4.0.0
-    ./configure && make -j11
+    ./configure --enable-debug && make -j11
     sudo checkinstall make install
     # sudo apt install ./*.deb
