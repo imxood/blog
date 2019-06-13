@@ -452,3 +452,6 @@ dia-normal "$@"
     ./configure --enable-debug && make -j11
     sudo checkinstall make install
     # sudo apt install ./*.deb
+
+## 安装pipenv
+    curl https://raw.githubusercontent.com/kennethreitz/pipenv/master/get-pipenv.py | python
